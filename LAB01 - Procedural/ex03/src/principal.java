@@ -65,10 +65,34 @@ public class principal {
         }
     }
 
+    public static void ex04(){
+        Scanner sc = new Scanner(System.in);
+        int[] vet = new int[6];
+        int aux;
+        System.out.println("<< Listando um vetor >>");
+
+        for (int i = 0; i < 6; i++){
+                System.out.println("Entre com o número " + (i+1));
+                aux = sc.nextInt();
+                if(aux%2==0) {
+                    vet[i] = aux;
+                }else{
+                    System.out.println("ta errado aqui");
+                }
+                aux = 0;
+        }
+
+        System.out.println("Os valores lidos são:");
+        for (int i = 0; i < 6; i++){
+            System.out.printf("%d ",vet[i]);
+        }
+    }
+
     public static void main(String[] args) {
         // ex01();
         //ex02();
-        ex03();
+        //ex03();
+        ex04();
     }
 
 
