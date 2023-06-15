@@ -1,0 +1,7 @@
+- Diferença entre throw e throws
+
+Resumindo, "throw" é usado para lançar uma exceção explicitamente em um bloco de código, enquanto "throws" é usado para declarar que um método pode lançar uma exceção específica, transferindo a responsabilidade de tratá-la para o código que chama o método.
+
+- Diferença entre checked e unchecked exceptions
+
+Em resumo, exceções verificadas são aquelas que o compilador obriga a serem tratadas ou declaradas, enquanto exceções não verificadas não têm essa obrigatoriedade
